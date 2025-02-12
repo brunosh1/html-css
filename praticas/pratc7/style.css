@@ -1,0 +1,12 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'love';
+    src: url(Valentine\ Cute.ttf)format('opentype');
+    font-weight: normal;
+}
+body {background-color: #006B41;}
+div {text-align: center; padding-top: 250px;}
+h1 {color: #8F1500; 
+    font-family: var(-love);
+    text-align: center; 
+    padding-top: 350px;}

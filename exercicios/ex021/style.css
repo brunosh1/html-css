@@ -1,0 +1,24 @@
+@charset "UTF-8";        
+        
+        body {background-image: linear-gradient(to left, rgb(38, 58, 80), rgba(88, 133, 185, 0.795)); font-family: Arial, Helvetica, sans-serif;}
+        
+        header { background-color: rgba(255, 255, 255, 0.822);padding: 10px; margin: 10px; color:rgb(38, 58, 80) ;}
+        
+
+        nav {background-color: rgb(38, 58, 80); padding: 3px; box-shadow: 5px 5px 8px 2px rgba(0, 0, 0, 0.356);}
+        nav > a {background-color: aliceblue; text-decoration: none; color: rgb(28, 37, 56);padding: 3px; margin: 10px; box-shadow: inset 0px 1px 7px 5px rgba(51, 51, 83, 0.836) ;}
+        nav > a:hover {text-decoration: underline;}
+
+        main {background-color: rgba(255, 255, 255, 0.822);padding: 10px; margin: 10px; border-radius: 5px; box-shadow: 5px 8px 20px 0px;}
+        
+        section > p {background-color: rgba(88, 133, 185, 0.795); padding: 5px; border-radius: 5px 5px 0px 0px;}
+
+        article {background-color: rgba(88, 133, 185, 0.795); padding: 10px; border-radius: 0px 0px 5px 5px;}
+        
+        article > aside {background-image: linear-gradient(to left, rgb(38, 58, 80), rgba(88, 133, 185, 0.795)); }
+        
+        footer {background-color: black; color: aliceblue; text-align: center; padding: 5px; margin: 0px;}
+
+        footer > p {margin: 0px;}
+
+        div#bola {height: 100px; width: 100px; background-color: white; margin: 50px;border-radius: 50px ;}
